@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import {PropTypes} from 'prop-types';
 import {connect} from 'react-redux';
 import WhatsSTO from '../information/WhatsSTO'
+import Team from '../information/Team'
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBalanceScale, faHandshake, faWifi} from '@fortawesome/free-solid-svg-icons'
@@ -106,7 +107,8 @@ class Landing extends Component {
                 <div className="d-flex justify-content-center flex-wrap">
                     <WhatsSTO/>
                 </div>
-
+                <hr/>
+                <Team/>
                 </div>
         );
     }
