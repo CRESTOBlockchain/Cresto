@@ -36,9 +36,9 @@
         background: url('../img/landingBGimg.jpg') no-repeat;
         background-size: cover;
         background-position: center;
-        height: 140vh;
+        height: 300vh;
         margin-top: -24px;
-        margin-bottom: -50px;
+        margin-bottom: -30px;
     }
 }
 
@@ -49,9 +49,9 @@
         background: url('../img/landingBGimg.jpg') no-repeat;
         background-size: cover;
         background-position: center;
-        height: 110vh;
+        height: 230vh;
         margin-top: -24px;
-        margin-bottom: -50px;
+        margin-bottom: -30px;
     }
 }
 
@@ -62,9 +62,9 @@
         background: url('../img/landingBGimg.jpg') no-repeat;
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 200vh;
         margin-top: -24px;
-        margin-bottom: -50px;
+        margin-bottom: -30px;
     }
 }
 
