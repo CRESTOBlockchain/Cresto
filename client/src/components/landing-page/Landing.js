@@ -27,7 +27,7 @@ class Landing extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className='col-md-12'>
-                                    <a href="https://github.com/CRESTOBlockchain/everiTokenDapp/raw/master/client/src/docs/CRESTO%20Presentation.pdf"
+                                    <a href="https://github.com/CRESTOBlockchain/Cresto/raw/master/client/src/info/CRESTOPresentation.pdf"
                                        download="proposed_file_name">
                                         <button className='btn btn-danger downloadBrochure' style={{float: "right"}}>Download Brochure</button>
                                     </a>
