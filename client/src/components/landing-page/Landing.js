@@ -36,46 +36,38 @@ class Landing extends Component {
                             <div className="row">
 
                                 <div className="col-md-12 text-center">
-                                    <h1 className="display-3 mb-4">CRESTO</h1>
+                                    <h1 className="display-3 mb-4"></h1>
                                     <h4>A NOVEL WAY OF FUNDRAISING AND INVESTING
                                     </h4>
+
                                     <hr style={{border: "solid", color: "yellow"}}/>
-                                    <p>Real estate owners can issue digital securities and hold a SECURITY TOKEN OFFERING – a hybrid investment model combining advantages of an IPO, an ICO, and a VC funding.
 
+                                    <br/>
 
-                                        Both traditional and crypto investors can  purchase SECURITY TOKENS backed by real estate assets. This investment is backed by legally binding SMART CONTRACT and is fully compliant with existing financial regulations.</p>
-                                    <hr/>
-
-                                    <div className="row">
-                                        <div className='col-md-12'>
-                                            <a href="https://github.com/CRESTOBlockchain/Cresto/raw/master/client/src/info/CRESTOPresentation.pdf"
-                                               download="proposed_file_name">
-                                                <button className='btn downloadBrochure' style={{border: "solid", borderColor: "yellow"}}>Download Brochure</button>
-
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    {/*<Link to="/register" className="btn btn-lg btn-info mr-2">*/}
-                                    {/*Sign Up*/}
-                                    {/*</Link>*/}
-                                    {/*<Link to="/login" className="btn btn-lg btn-light">*/}
-                                    {/*Login*/}
-                                    {/*</Link>*/}
 
                                 </div>
                             </div>
-                            {/*<div className="row">*/}
-                                {/*<div className='col text-center'>*/}
-                                    {/*<h4>Asset owners </h4>*/}
-                                {/*</div>*/}
+                            <div className="row">
+                                <div className='col'>
+                                    <p>Real estate owners can issue digital securities and hold a SECURITY TOKEN OFFERING – a hybrid investment model combining advantages of an IPO, an ICO, and a VC funding.</p>
+                                    <p>Both traditional and crypto investors can  purchase SECURITY TOKENS backed by real estate assets. This investment is backed by legally binding SMART CONTRACT and is fully compliant with existing financial regulations.</p>
+                                </div>
                                 {/*<div className='col text-center'>*/}
                                     {/*<h4>*/}
                                         {/*Investors*/}
                                     {/*</h4>*/}
                                 {/*</div>*/}
-                            {/*</div>*/}
+                            </div>
 
+                            <br/>
+                            <div className="row">
+                                <div className='col-md-12 text-center'>
+                                    <a href="https://github.com/CRESTOBlockchain/Cresto/raw/master/client/src/info/CRESTOPresentation.pdf"
+                                       download="proposed_file_name">
+                                        <button className='btn downloadBrochure' style={{border: "solid", borderColor: "yellow"}}>Download Brochure</button>
+                                    </a>
+                                </div>
+                            </div>
 
                             {/*<div className="row">*/}
                                 {/*<div className='col text-center'>*/}
@@ -110,6 +102,7 @@ class Landing extends Component {
                             </div>
                         </div>
                     </div>
+                <h1 style={{paddingTop: 18}}>Heelloo</h1>
                 </div>
         );
     }
