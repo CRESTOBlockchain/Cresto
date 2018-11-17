@@ -63,7 +63,7 @@ class Navbar extends Component {
     );
 
     return (
-      <nav className="navbar navbar-expand-lg navbar-light  mb-4" style={{background: "white"}}>
+      <nav className="navbar navbar-expand-xl navbar-light  mb-4" style={{background: "white"}}>
         <div className="container">
           <Link className="navbar-brand" to="/">
               <img src={logo} style={{width: 150}}/>
