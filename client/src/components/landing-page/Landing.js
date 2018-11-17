@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import {PropTypes} from 'prop-types';
 import {connect} from 'react-redux';
+import WhatsSTO from '../information/WhatsSTO'
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBalanceScale, faHandshake, faWifi} from '@fortawesome/free-solid-svg-icons'
@@ -102,6 +103,10 @@ class Landing extends Component {
                     <img src='https://user-images.githubusercontent.com/21117852/48663003-e61dc380-eac4-11e8-97c8-a2629b313f15.png' style={{marginLeft: 50}}/>
 
                 </div>
+                <div className="d-flex justify-content-center flex-wrap">
+                    <WhatsSTO/>
+                </div>
+
                 </div>
         );
     }

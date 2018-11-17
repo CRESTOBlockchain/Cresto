@@ -15,9 +15,11 @@ class WhatsSTO extends Component {
                         <div className="col-md-12 text-center">
 
 
-                            <h4>What is Security Token Offerings (STO)<br/><br/></h4>
+                            <button className='btn btn-primary'>What is Security Token Offerings (STO)</button>
                             <hr/>
-                            <p>Security tokens are digital assets that are compliant with federal securities laws and run on the blockchain. Security Token Offering (STO) is a new, compliant way for companies to raise capital. It can be run by any type of companies: a blockchain company, non-blockchain company, startup or enterprise. Real estate asset owners and managers can easily securitize asset by issuing security tokens.</p>
+                            <p>Security tokens are digital securities fully compliant with financial regulations and run on the blockchain.
+
+                                Security Token Offering is a novel way for real estate owners to raise capital: they can securitize real estate assets asset by issuing digital shares = security tokens and selling them publicly. </p>
                         </div>
                         <br/>
 
@@ -29,12 +31,12 @@ class WhatsSTO extends Component {
                             <h5> Security Tokens </h5>
                             <img src="https://i.imgur.com/RJbrp3m.png"/>
                             <br/>
-                            <p>Value backed up by tangible or intangible assets </p>
+                            <p>Backed up by tangible or intangible assets </p>
                             <br/>
 
                             <img src="https://i.imgur.com/uyr6Q3t.png"/>
                             <br/>
-                            <p>Represent future access to a product and service </p>
+                            <p>Pay regular dividends or interest to investors</p>
                             <br/>
 
                             <img src="https://i.imgur.com/2ELQ7hl.png"/>
@@ -66,10 +68,8 @@ class WhatsSTO extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 text-center">
+                            <button className='btn btn-primary'>Advantages of STO</button>
                             <hr/>
-
-                            <h5>Advantages of STO<br/><br/></h5>
-
                         </div>
                         <br/>
 
@@ -79,7 +79,7 @@ class WhatsSTO extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col text-center" >
-                            <img src='https://i.imgur.com/gkcWMry.jpg'/>
+                            <img src='https://i.imgur.com/40RUKtA.jpg'/>
                             <h6>Lower Cost</h6> <p>- lower transaction cost and fees than in traditional financing</p>
 
                         </div>
@@ -88,7 +88,7 @@ class WhatsSTO extends Component {
                             <h6>More Efficient</h6> <p>- fast and easy transaction process</p>
                         </div>
                         <div className="col text-center">
-                            <img src='https://i.imgur.com/40RUKtA.jpg'/>
+                            <img src='https://i.imgur.com/gkcWMry.jpg'/>
                             <h6>More Liquid</h6> <p>- 24/7 access to world markets</p>
                         </div>
                     </div>
