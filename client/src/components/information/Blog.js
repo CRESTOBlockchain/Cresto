@@ -1,34 +1,17 @@
-import React, {Component} from 'react';
-import {PropTypes} from 'prop-types';
-import {connect} from 'react-redux';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import PostItem from '../posts/PostItem';
 
 class Blog extends Component {
-
     render() {
-        return (
-            <div>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 text-center">
-                            <h1>Blog</h1>
-                            <p>write some articles and share information</p>
-                            <p>Coming sooner than you know</p>
+        const { posts } = this.props;
 
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        );
+        return posts.map(post => <PostItem key={post._id} post={post} />);
     }
 }
 
 Blog.propTypes = {
-    auth: PropTypes.object.isRequired
+    posts: PropTypes.array.isRequired
 };
 
-const mapStateToProps = state => ({
-    auth: state.auth
-});
-
-export default connect(mapStateToProps)(Blog);
+export default Blog;

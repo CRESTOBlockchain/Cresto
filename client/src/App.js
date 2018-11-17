@@ -81,8 +81,7 @@ class App extends Component {
                             <Route exact path="/whatsSTO" component={WhatsSTO} />
                             {/*<Route exact path="/imgUploader" component={ImgUploader} />*/}
 
-
-
+                            <Route exact path="/feed" component={Posts} />
 
 
 
@@ -120,9 +119,9 @@ class App extends Component {
                                     component={AddEducation}
                                 />
                             </Switch>
-                            <Switch>
-                                <PrivateRoute exact path="/feed" component={Posts} />
-                            </Switch>
+                            {/*<Switch>*/}
+                                {/*<PrivateRoute exact path="/feed" component={Posts} />*/}
+                            {/*</Switch>*/}
                             <Switch>
                                 <PrivateRoute exact path="/post/:id" component={Post} />
                             </Switch>
