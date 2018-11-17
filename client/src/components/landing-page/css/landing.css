@@ -11,14 +11,17 @@
     margin: auto;
 }
 
+.nav-link{
+    font-size: 16px;
+}
+
 
 @media only screen and (min-width: 320px) {
 
 
-
     .landing {
         position: relative;
-        background: url('https://user-images.githubusercontent.com/21117852/43917330-9ff70fcc-9c42-11e8-9971-51674beae527.png') no-repeat;
+        background: url('../img/landingBGimg.jpg') no-repeat;
         background-size: cover;
         background-position: center;
         height: 350vh;
@@ -31,7 +34,7 @@
 
     .landing {
         position: relative;
-        background: url('https://user-images.githubusercontent.com/21117852/43917330-9ff70fcc-9c42-11e8-9971-51674beae527.png') no-repeat;
+        background: url('../img/landingBGimg.jpg') no-repeat;
         background-size: cover;
         background-position: center;
         height: 140vh;
@@ -44,7 +47,7 @@
 
     .landing {
         position: relative;
-        background: url('https://user-images.githubusercontent.com/21117852/43917330-9ff70fcc-9c42-11e8-9971-51674beae527.png') no-repeat;
+        background: url('../img/landingBGimg.jpg') no-repeat;
         background-size: cover;
         background-position: center;
         height: 110vh;
@@ -57,7 +60,7 @@
 
     .landing {
         position: relative;
-        background: url('https://user-images.githubusercontent.com/21117852/43917330-9ff70fcc-9c42-11e8-9971-51674beae527.png') no-repeat;
+        background: url('../img/landingBGimg.jpg') no-repeat;
         background-size: cover;
         background-position: center;
         height: 100vh;

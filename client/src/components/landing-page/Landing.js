@@ -29,7 +29,7 @@ class Landing extends Component {
                                 <div className='col-md-12'>
                                     <a href="https://github.com/CRESTOBlockchain/Cresto/raw/master/client/src/info/CRESTOPresentation.pdf"
                                        download="proposed_file_name">
-                                        <button className='btn btn-danger downloadBrochure' style={{float: "right"}}>Download Brochure</button>
+                                        <button className='btn downloadBrochure' style={{float: "right"}}>Download Brochure</button>
                                     </a>
                                 </div>
                             </div>
