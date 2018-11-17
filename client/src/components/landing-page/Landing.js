@@ -97,9 +97,9 @@ class Landing extends Component {
                             </div>
                         </div>
                     </div>
-                <div className="d-flex justify-content-center flex-wrap" style={{paddingTop: 50}}>
-                    <img src='https://user-images.githubusercontent.com/21117852/48662995-ceded600-eac4-11e8-8cb6-700dbb0ef333.png'/>
-                    <img src='https://user-images.githubusercontent.com/21117852/48663003-e61dc380-eac4-11e8-97c8-a2629b313f15.png'/>
+                <div className="d-flex justify-content-center flex-wrap" style={{padding: 100}}>
+                    <img src='https://user-images.githubusercontent.com/21117852/48662995-ceded600-eac4-11e8-8cb6-700dbb0ef333.png' style={{marginRight: 50}}/>
+                    <img src='https://user-images.githubusercontent.com/21117852/48663003-e61dc380-eac4-11e8-97c8-a2629b313f15.png' style={{marginLeft: 50}}/>
 
                 </div>
                 </div>
