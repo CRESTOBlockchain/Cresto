@@ -52,11 +52,6 @@ class Landing extends Component {
                                     <p>Real estate owners can issue digital securities and hold a SECURITY TOKEN OFFERING – a hybrid investment model combining advantages of an IPO, an ICO, and a VC funding.</p>
                                     <p>Both traditional and crypto investors can  purchase SECURITY TOKENS backed by real estate assets. This investment is backed by legally binding SMART CONTRACT and is fully compliant with existing financial regulations.</p>
                                 </div>
-                                {/*<div className='col text-center'>*/}
-                                    {/*<h4>*/}
-                                        {/*Investors*/}
-                                    {/*</h4>*/}
-                                {/*</div>*/}
                             </div>
 
                             <br/>
@@ -102,7 +97,11 @@ class Landing extends Component {
                             </div>
                         </div>
                     </div>
-                <h1 style={{paddingTop: 18}}>Heelloo</h1>
+                <div className="d-flex justify-content-center flex-wrap" style={{paddingTop: 50}}>
+                    <img src='https://user-images.githubusercontent.com/21117852/48662995-ceded600-eac4-11e8-8cb6-700dbb0ef333.png'/>
+                    <img src='https://user-images.githubusercontent.com/21117852/48663003-e61dc380-eac4-11e8-97c8-a2629b313f15.png'/>
+
+                </div>
                 </div>
         );
     }
