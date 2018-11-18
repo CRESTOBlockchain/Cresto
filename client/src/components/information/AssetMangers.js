@@ -1,9 +1,11 @@
 import React, {Component} from 'react';
 import {PropTypes} from 'prop-types';
 import {connect} from 'react-redux';
+import { Link } from 'react-router-dom';
 import './css/Asset-Manger.css';
 import  secure  from  './img/secure.jpg';
 import  commerical  from  './img/commerical.jpg';
+import OwnersDashboard from "../owners/OwnersDashboard";
 
 class AssetMangers extends Component {
 
@@ -18,14 +20,14 @@ class AssetMangers extends Component {
                     <div className='col-12 '>
                         <img src='https://user-images.githubusercontent.com/21117852/48676473-6a924400-eba2-11e8-91a5-38c8c01f5cd6.png'/>
                     </div>
-                    <div className='col-12 '>
+                    <div className='col-12'>
                         <img src='https://user-images.githubusercontent.com/21117852/48676479-85fd4f00-eba2-11e8-93e4-b9ea79055c19.png'/>
                     </div>
                     <div className='col-12 '>
-                        <button className='btn btn-primary'>
+                        <Link to='/OwnersDashboard' className='btn btn-primary'>
                             <div>I am a</div>
                             <div style={{fontSize: 24}}>Property Owner</div>
-                        </button>
+                        </Link>
                     </div>
                 </div>
 

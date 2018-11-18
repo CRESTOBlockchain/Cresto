@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import {PropTypes} from 'prop-types';
 import {connect} from 'react-redux';
+import { Link } from 'react-router-dom';
 import './css/Investors.css';
+import InvestorsDashboard from "../investors/InvestorsDashboard";
 //
 // import tick from './img/tick.png';
 // import face from './img/face.png';
@@ -31,10 +33,10 @@ class Investors extends Component {
                             <img src='https://user-images.githubusercontent.com/21117852/48677463-5a816100-ebb0-11e8-9f45-42491959bde0.png'/>
                         </div>
                         <div className='col-12'>
-                            <button className='btn btn-primary'>
+                            <Link to='/InvestorsDashboard' className='btn btn-primary'>
                                 <div>I am a</div>
                                 <div style={{fontSize: 24}}>Investor</div>
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

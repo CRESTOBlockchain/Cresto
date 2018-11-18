@@ -35,6 +35,20 @@ import TheProcess from './components/information/TheProcess';
 import WhatsSTO from './components/information/WhatsSTO';
 // import ImgUploader from './components/edit-profile/ImgUploader';
 
+import InvestorsDashboard from './components/investors/InvestorsDashboard';
+import Building1 from './components/investors/Building1';
+import Building2 from './components/investors/Building2';
+import Building3 from './components/investors/Building3';
+import Building4 from './components/investors/Building4';
+import Building5 from './components/investors/Building5';
+import Building6 from './components/investors/Building6';
+import Chart from './components/investors/Chart';
+import Leasers from './components/investors/Leasers';
+
+import OwnersDashboard from './components/owners/OwnersDashboard';
+import CreateProperty from './components/owners/CreateProperty';
+
+
 
 import './App.css';
 
@@ -80,6 +94,22 @@ class App extends Component {
                             <Route exact path="/theProcess" component={TheProcess} />
                             <Route exact path="/whatsSTO" component={WhatsSTO} />
                             {/*<Route exact path="/imgUploader" component={ImgUploader} />*/}
+
+
+                            <Route exact path="/InvestorsDashboard" component={InvestorsDashboard}/>
+                            <Route exact path="/building1" component={Building1}/>
+                            <Route exact path="/building2" component={Building2}/>
+                            <Route exact path="/building3" component={Building3}/>
+                            <Route exact path="/building4" component={Building4}/>
+                            <Route exact path="/building5" component={Building5}/>
+                            <Route exact path="/building6" component={Building6}/>
+                            <Route exact path="/Chart" component={Chart}/>
+                            <Route exact path="/Leasers" component={Leasers}/>
+
+
+                            <Route exact path="/OwnersDashboard" component={OwnersDashboard}/>
+                            <Route exact path="/CreateProperty" component={CreateProperty}/>
+
 
                             <Route exact path="/feed" component={Posts} />
 
