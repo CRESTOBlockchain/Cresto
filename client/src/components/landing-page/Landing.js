@@ -4,6 +4,7 @@ import {PropTypes} from 'prop-types';
 import {connect} from 'react-redux';
 import WhatsSTO from '../information/WhatsSTO'
 import Team from '../information/Team'
+import AssetMangers from '../information/AssetMangers'
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBalanceScale, faHandshake, faWifi} from '@fortawesome/free-solid-svg-icons'
@@ -109,6 +110,7 @@ class Landing extends Component {
                 </div>
                 <hr/>
                 <Team/>
+                <AssetMangers/>
                 </div>
         );
     }

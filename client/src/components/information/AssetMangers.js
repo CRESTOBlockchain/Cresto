@@ -11,279 +11,296 @@ class AssetMangers extends Component {
         return (
 
             <div className="container">
-
-                <div className="row">
-
-                    <div className="col-sm-2"></div>
-                    <div className="col-sm-8">
-
-                        <nav className="navbar navbar-light bg-light AMbg-light AMnavbar-light">
-  <span className=" navbar-text AMnavbar-text">
-
-   STO for Real Estate Asset Managers and Owners
-                                 Our Base Principles
-  </span>
-                        </nav>
+                <div className='row text-center'>
+                    <div className='col-12 '>
+                        <img src='https://user-images.githubusercontent.com/21117852/48676455-2b63f300-eba2-11e8-806e-d71ead32d6f7.png'/>
                     </div>
-                    <div className="col-sm-2"></div>
+                    <div className='col-12 '>
+                        <img src='https://user-images.githubusercontent.com/21117852/48676473-6a924400-eba2-11e8-91a5-38c8c01f5cd6.png'/>
+                    </div>
+                    <div className='col-12 '>
+                        <img src='https://user-images.githubusercontent.com/21117852/48676479-85fd4f00-eba2-11e8-93e4-b9ea79055c19.png'/>
+                    </div>
+                    <div className='col-12 '>
+                        <button className='btn btn-primary'>
+                            <div>I am a</div>
+                            <div style={{fontSize: 24}}>Property Owner</div>
+                        </button>
+                    </div>
                 </div>
 
-                <div className="row custom-card-body AMcustom-card-body">
-                    <div className="col-sm-3">
+                {/*<div className="row">*/}
 
-                        <div className="card">
-                            <div className="card-body AMcard-body">
+                    {/*<div className="col-sm-2"></div>*/}
+                    {/*<div className="col-sm-8">*/}
 
-                                <p className="card-text">Seamless integration with existing financial processes
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-sm-3">
+                        {/*<nav className="navbar navbar-light bg-light AMbg-light AMnavbar-light">*/}
+  {/*<span className=" navbar-text AMnavbar-text">*/}
 
-                        <div className="card">
-                            <div className="card-body AMcard-body">
+   {/*STO for Real Estate Asset Managers and Owners*/}
+                                 {/*Our Base Principles*/}
+  {/*</span>*/}
+                        {/*</nav>*/}
+                    {/*</div>*/}
+                    {/*<div className="col-sm-2"></div>*/}
+                {/*</div>*/}
 
-                                <p className="card-text">STO underlying principles comply with regulations on traditional securities market
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-sm-3">
+                {/*<div className="row custom-card-body AMcustom-card-body">*/}
+                    {/*<div className="col-sm-3">*/}
 
-                        <div className="card">
-                            <div className="card-body AMcard-body">
+                        {/*<div className="card">*/}
+                            {/*<div className="card-body AMcard-body">*/}
 
-                                <p className="card-text">Active cooperation with relevant financial and legal authorities in order to boost development of STO regulations
+                                {/*<p className="card-text">Seamless integration with existing financial processes*/}
+                                {/*</p>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
+                    {/*<div className="col-sm-3">*/}
 
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                        {/*<div className="card">*/}
+                            {/*<div className="card-body AMcard-body">*/}
 
+                                {/*<p className="card-text">STO underlying principles comply with regulations on traditional securities market*/}
+                                {/*</p>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
+                    {/*<div className="col-sm-3">*/}
 
+                        {/*<div className="card">*/}
+                            {/*<div className="card-body AMcard-body">*/}
 
-                    <div className="col-sm-3">
+                                {/*<p className="card-text">Active cooperation with relevant financial and legal authorities in order to boost development of STO regulations*/}
 
-                        <div className="card">
-                            <div className="card-body AMcard-body">
+                                {/*</p>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
 
 
-                                <p className="card-text">STechnology is there to serve existing business models on real estate market, not to disrupt them
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
+                    {/*<div className="col-sm-3">*/}
 
-                <hr/>
+                        {/*<div className="card">*/}
+                            {/*<div className="card-body AMcard-body">*/}
 
 
-                <div className="rectangleBar AMrectangleBar">
+                                {/*<p className="card-text">STechnology is there to serve existing business models on real estate market, not to disrupt them*/}
+                                {/*</p>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
+                    {/*</div>*/}
 
+                {/*</div>*/}
 
-                    <div className="row">
+                {/*<hr/>*/}
 
-                        <div className="col-sm-2">
-                            <div className="rectangle AMrectangle">
-                                Asset Managers / Owners
-                            </div>
 
-                        </div>
+                {/*<div className="rectangleBar AMrectangleBar">*/}
 
-                        <div className="col-sm-2">
-                            <div className="oval AMoval">
-                                <p className="ovalparagraph"> Private REITs </p>
 
-                            </div>
-                        </div>
+                    {/*<div className="row">*/}
 
+                        {/*<div className="col-sm-2">*/}
+                            {/*<div className="rectangle AMrectangle">*/}
+                                {/*Asset Managers / Owners*/}
+                            {/*</div>*/}
 
-                        <div className="col-sm-2">
-                            <div className="oval AMoval">
-                                <p className="ovalparagraph">Private Equity </p>
-                            </div>
-                        </div>
+                        {/*</div>*/}
 
-                        <div className="col-sm-2">
-                            <div className="oval AMoval">
-                                <p className="ovalparagraph">Developers </p>
+                        {/*<div className="col-sm-2">*/}
+                            {/*<div className="oval AMoval">*/}
+                                {/*<p className="ovalparagraph"> Private REITs </p>*/}
 
-                            </div>
-                        </div>
+                            {/*</div>*/}
+                        {/*</div>*/}
 
-                        <div className="col-sm-2">
-                            <div className="oval AMoval">
-                                <p className="ovalparagraph"> Individual asset
-                                </p>
-                            </div>
-                        </div>
 
+                        {/*<div className="col-sm-2">*/}
+                            {/*<div className="oval AMoval">*/}
+                                {/*<p className="ovalparagraph">Private Equity </p>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
 
-                    </div>
+                        {/*<div className="col-sm-2">*/}
+                            {/*<div className="oval AMoval">*/}
+                                {/*<p className="ovalparagraph">Developers </p>*/}
 
-                </div>
+                            {/*</div>*/}
+                        {/*</div>*/}
 
-                <hr/>
+                        {/*<div className="col-sm-2">*/}
+                            {/*<div className="oval AMoval">*/}
+                                {/*<p className="ovalparagraph"> Individual asset*/}
+                                {/*</p>*/}
+                            {/*</div>*/}
+                        {/*</div>*/}
 
-                <div className="rectangleBar AMrectangleBar">
 
+                    {/*</div>*/}
 
-                    <div className="row">
+                {/*</div>*/}
 
-                        <div className="col-sm-3">
-                            <div className="rectangle AMrectangle">
-                                Existing Pains
-                            </div>
+                {/*<hr/>*/}
 
-                        </div>
+                {/*<div className="rectangleBar AMrectangleBar">*/}
 
 
+                    {/*<div className="row">*/}
 
-                        <div className="col-sm-4">
+                        {/*<div className="col-sm-3">*/}
+                            {/*<div className="rectangle AMrectangle">*/}
+                                {/*Existing Pains*/}
+                            {/*</div>*/}
 
-                            <p className="textalign">
-                                Illiquidity –
-                                no flexible exit opportunities for partners.
-                                The only current alternative is costly and tedious  IPO
-                            </p>
+                        {/*</div>*/}
 
 
-                        </div>
 
-                        <div className="col-sm-5">
+                        {/*<div className="col-sm-4">*/}
 
-                            <p className=""> Limited range of investors –
-                                high dependence on institutional investors and HNWI,
-                                lack of access to retail investors from markets with different yield and risk appetites
+                            {/*<p className="textalign">*/}
+                                {/*Illiquidity –*/}
+                                {/*no flexible exit opportunities for partners.*/}
+                                {/*The only current alternative is costly and tedious  IPO*/}
+                            {/*</p>*/}
 
-                            </p>
 
-                        </div>
+                        {/*</div>*/}
 
+                        {/*<div className="col-sm-5">*/}
 
-                    </div>
+                            {/*<p className=""> Limited range of investors –*/}
+                                {/*high dependence on institutional investors and HNWI,*/}
+                                {/*lack of access to retail investors from markets with different yield and risk appetites*/}
 
-                </div>
+                            {/*</p>*/}
 
-                <hr/>
+                        {/*</div>*/}
 
 
-                <div className="rectangleBar AMrectangleBar">
+                    {/*</div>*/}
 
+                {/*</div>*/}
 
-                    <div className="row">
+                {/*<hr/>*/}
 
-                        <div className="col-sm-3">
-                            <div className="rectangle AMrectangle">
-                                Solutions through STO
 
-                            </div>
+                {/*<div className="rectangleBar AMrectangleBar">*/}
 
-                        </div>
 
-                        <div className="col-sm-2">
+                    {/*<div className="row">*/}
 
-                            <p className="textalign">
-                                More retail investors  more flexibility and bargaining power
+                        {/*<div className="col-sm-3">*/}
+                            {/*<div className="rectangle AMrectangle">*/}
+                                {/*Solutions through STO*/}
 
+                            {/*</div>*/}
 
-                            </p>
+                        {/*</div>*/}
 
+                        {/*<div className="col-sm-2">*/}
 
-                        </div>
+                            {/*<p className="textalign">*/}
+                                {/*More retail investors  more flexibility and bargaining power*/}
 
-                        <div className="col-sm-2">
 
-                            <p className=""> Alternative exit opportunity for limited partners</p>
+                            {/*</p>*/}
 
-                        </div>
-                        <div className="col-sm-2">
 
-                            <p className=""> Attracting investors from countries with low returns</p>
+                        {/*</div>*/}
 
-                        </div>
-                        <div className="col-sm-2">
+                        {/*<div className="col-sm-2">*/}
 
-                            <p className=""> More flexibility on investor fee structuring</p>
+                            {/*<p className=""> Alternative exit opportunity for limited partners</p>*/}
 
-                        </div>
+                        {/*</div>*/}
+                        {/*<div className="col-sm-2">*/}
 
-                    </div>
+                            {/*<p className=""> Attracting investors from countries with low returns</p>*/}
 
-                    <div className="row">
-                        <div className="col-sm-3"></div>
-                        <div className="col-sm-2">
+                        {/*</div>*/}
+                        {/*<div className="col-sm-2">*/}
 
-                            <p className=""> Addressing the problem of information asymmetry
-                            </p>
+                            {/*<p className=""> More flexibility on investor fee structuring</p>*/}
 
-                        </div>
-                        <div className="col-sm-2">
+                        {/*</div>*/}
 
-                            <p className=""> Alternative way of raising bridge financing for new developments
+                    {/*</div>*/}
 
-                            </p>
+                    {/*<div className="row">*/}
+                        {/*<div className="col-sm-3"></div>*/}
+                        {/*<div className="col-sm-2">*/}
 
-                        </div>
-                        <div className="col-sm-2">
+                            {/*<p className=""> Addressing the problem of information asymmetry*/}
+                            {/*</p>*/}
 
-                            <p className=""> Opportunity to scale portfolio for small asset holders </p>
+                        {/*</div>*/}
+                        {/*<div className="col-sm-2">*/}
 
-                        </div>
-                    </div>
+                            {/*<p className=""> Alternative way of raising bridge financing for new developments*/}
 
-                </div>
-                <hr/>
-                <div className="row">
-                    <div className="col-sm-1"></div>
-                    <div className="col-sm-10">
+                            {/*</p>*/}
 
-                        <div className="myNavbar AMmyNavbar">
-  <span className=" navbar-text AMnavbar-text">
+                        {/*</div>*/}
+                        {/*<div className="col-sm-2">*/}
 
-   Who Are Eligible Candidates for Holding STO</span>
-                        </div>
+                            {/*<p className=""> Opportunity to scale portfolio for small asset holders </p>*/}
 
+                        {/*</div>*/}
+                    {/*</div>*/}
 
-                    </div>
-                    <div className="STDList">
-                        <ul className="b">
-                            <li>Real estate investment entities with extensive experience of managing funds, investing into similar asset class</li>
-                            <li>Real estate developers with proven track record of completed projects, which generated returns for their lenders/investors
-                            </li>
-                            <li>SMEs and Individuals with proven record of successfully managing income generating properties, who have sensible business plan for scaling their portfolio through co-investing
-                            </li>
-                            <li>Companies having a clear vision of how raising capital through STO can seamlessly integrate with their existing capital raising models</li>
-                            <li>Companies looking to be first adopters of blockchain technology in order to create more efficient real estate ecosystem
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="col-sm-1"></div>
-                </div>
-                <hr/>
+                {/*</div>*/}
+                {/*<hr/>*/}
+                {/*<div className="row">*/}
+                    {/*<div className="col-sm-1"></div>*/}
+                    {/*<div className="col-sm-10">*/}
 
-                <div className="row">
-                    <div className="col-sm-1"></div>
-                    <div className="col-sm-10">
+                        {/*<div className="myNavbar AMmyNavbar">*/}
+  {/*<span className=" navbar-text AMnavbar-text">*/}
 
-                        <div className="myNavbar AMmyNavbar">
-  <span className=" navbar-text AMnavbar-text">
+   {/*Who Are Eligible Candidates for Holding STO</span>*/}
+                        {/*</div>*/}
 
-    Expected Criteria for Real Estate Assets Submitted for Securitization</span>
-                        </div>
-                        <div className="Securitization">
-                            <img src={secure} alt=""/>
-                        </div>
 
+                    {/*</div>*/}
+                    {/*<div className="STDList">*/}
+                        {/*<ul className="b">*/}
+                            {/*<li>Real estate investment entities with extensive experience of managing funds, investing into similar asset class</li>*/}
+                            {/*<li>Real estate developers with proven track record of completed projects, which generated returns for their lenders/investors*/}
+                            {/*</li>*/}
+                            {/*<li>SMEs and Individuals with proven record of successfully managing income generating properties, who have sensible business plan for scaling their portfolio through co-investing*/}
+                            {/*</li>*/}
+                            {/*<li>Companies having a clear vision of how raising capital through STO can seamlessly integrate with their existing capital raising models</li>*/}
+                            {/*<li>Companies looking to be first adopters of blockchain technology in order to create more efficient real estate ecosystem*/}
+                            {/*</li>*/}
+                        {/*</ul>*/}
+                    {/*</div>*/}
+                    {/*<div className="col-sm-1"></div>*/}
+                {/*</div>*/}
+                {/*<hr/>*/}
 
-                    </div>
-                    <div className="col-sm-1"></div>
-                </div>
-                <div className="row">
-                    <img src={commerical} alt=""/>
-                </div>
+                {/*<div className="row">*/}
+                    {/*<div className="col-sm-1"></div>*/}
+                    {/*<div className="col-sm-10">*/}
+
+                        {/*<div className="myNavbar AMmyNavbar">*/}
+  {/*<span className=" navbar-text AMnavbar-text">*/}
+
+    {/*Expected Criteria for Real Estate Assets Submitted for Securitization</span>*/}
+                        {/*</div>*/}
+                        {/*<div className="Securitization">*/}
+                            {/*<img src={secure} alt=""/>*/}
+                        {/*</div>*/}
+
+
+                    {/*</div>*/}
+                    {/*<div className="col-sm-1"></div>*/}
+                {/*</div>*/}
+                {/*<div className="row">*/}
+                    {/*<img src={commerical} alt=""/>*/}
+                {/*</div>*/}
             </div>
 
         );

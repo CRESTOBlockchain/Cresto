@@ -15,9 +15,9 @@ class WhatsSTO extends Component {
                         <div className="col-md-12 text-center">
 
 
-                            <button className='btn btn-primary'>What is Security Token Offerings (STO)</button>
+                            <button className='btn' style={{backgroundColor: '#99e6ff'}}>What is Security Token Offerings (STO)</button>
                             <hr/>
-                            <p>Security tokens are digital securities fully compliant with financial regulations and run on the blockchain.
+                            <p>Security tokens are digital securities fully compliant with fi   nancial regulations and run on the blockchain.
 
                                 Security Token Offering is a novel way for real estate owners to raise capital: they can securitize real estate assets asset by issuing digital shares = security tokens and selling them publicly. </p>
                         </div>

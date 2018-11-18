@@ -11,7 +11,7 @@ class Team extends Component {
         return (
             <div>
                 <div className='container text-center'>
-                    <button className='btn btn-primary'>CRESTO Team</button>
+                    <button className='btn' style={{backgroundColor: '#99e6ff'}}>CRESTO Team</button>
                 </div>
 
                 <div className=" d-flex justify-content-center flex-wrap">
