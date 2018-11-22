@@ -64,7 +64,7 @@ class Navbar extends Component {
 
     return (
       <nav
-        className="navbar navbar-expand-xl navbar-light  mb-4"
+        className="navbar navbar-expand-xl navbar-light mb-4"
         style={{ background: "white" }}
       >
         <div className="container">
