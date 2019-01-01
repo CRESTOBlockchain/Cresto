@@ -67,7 +67,7 @@ class Landing extends Component {
                       className="btn downloadBrochure"
                       style={{ border: "solid", borderColor: "yellow" }}
                     >
-                      Download Brochure
+                      Download White Paper
                     </button>
                   </a>
                 </div>
